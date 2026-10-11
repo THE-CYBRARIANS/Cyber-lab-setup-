@@ -1,63 +1,49 @@
-
- Security Onion
-
-Same thing. I found the **official Security Onion documentation**.
-
-Security Onion's current documentation recommends downloading and verifying the ISO before installation. [oai_citation:4‡Security Onion Documentation](https://docs.securityonion.net/en/3/main/download/?utm_source=chatgpt.com)
-
-You can structure that README like:
-
-```markdown
 # 🛡️ Security Onion Installation Guide
 
-Security Onion is an open platform for threat hunting, security monitoring, and log management.
+Security Onion is an open-source platform designed for threat hunting, enterprise security monitoring, and log management. This guide outlines the requirements and sequential steps needed to deploy it using an ISO image.
 
 ## 📋 Requirements
 
-Before installation, check the official hardware requirements.
-
-For a basic IMPORT installation, the official documentation lists a minimum of:
-
-- 4 GB RAM
-- 2 CPU cores
-- 100 GB storage
-- x86-64 processor
+Before beginning the installation, ensure your target machine meets the official minimum hardware requirements for a basic IMPORT deployment:
+* **Processor:** x86-64 compatible 
+* **CPU:** 2 cores
+* **Memory:** 4 GB RAM
+* **Storage:** 100 GB space
 
 ## 📥 Download
 
-[Download Security Onion](https://docs.securityonion.net/en/3/main/download/)
+You can obtain the latest image directly from the official repository:
+* [Download Security Onion ISO](https://securityonion.net)
 
-## 🖥️ Installation
+## 🖥️ Installation Steps
 
-1. Download the Security Onion ISO.
-2. Verify the ISO checksum.
-3. Create a bootable USB or attach the ISO to a virtual machine.
-4. Boot the computer/VM from the ISO.
-5. Follow the installation prompts.
-6. Create your username and password.
-7. Reboot when installation is complete.
-8. Log in.
-9. Security Onion Setup should start automatically.
-10. Follow the setup wizard to configure the installation.
+1. **Download** the official Security Onion ISO image.
+2. **Verify** the ISO checksum to ensure file integrity and safety.
+3. **Create** a bootable USB drive or attach the ISO file to your virtual machine (VM).
+4. **Boot** your target hardware or VM using the attached ISO.
+5. **Follow** the on-screen installation prompts.
+6. **Configure** your administrative username and secure password.
+7. **Reboot** the system once the initial installation phase finishes.
+8. **Log in** using the credentials you created in step 6.
+9. **Wait** for the Security Onion Setup script to launch automatically.
+10. **Complete** the setup wizard to finish configuring the system.
 
 ## ⚙️ Initial Configuration
 
-During setup, you may configure:
-
-- Hostname
-- Management interface
-- IP addressing
-- Gateway
-- DNS
-- Security Onion Console
-- Firewall access
+During the automated setup phase, you will configure the following platform parameters:
+* Hostname
+* Management network interface
+* IP addressing schemas
+* Default gateway and DNS servers
+* Security Onion Console (SOC) access
+* Local firewall access control lists
 
 ## ✅ Verification
 
-After setup, log into the Security Onion Console and verify that the required services are running.
+Once the configuration wizard completes, log into the web-based Security Onion Console. Check the built-in grid status tools to verify that all necessary monitoring services are up and running properly.
 
 ## 📚 Official Documentation
 
-[Security Onion Installation Guide](https://docs.securityonion.net/en/3/main/installation/)
-
-[Security Onion Getting Started Guide](https://docs.securityonion.net/en/3/main/getting-started/)
+For advanced deployments, architecture guidelines, or troubleshooting, refer directly to the upstream documentation:
+* [Security Onion Installation Guide](https://securityonion.net)
+* [Security Onion Getting Started Guide](https://securityonion.net)
