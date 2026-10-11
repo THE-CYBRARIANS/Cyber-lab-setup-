@@ -16,6 +16,8 @@ Kali Linux is a Linux distribution designed for cybersecurity, penetration testi
 
 [Download Kali Linux](https://www.kali.org/get-kali/)
 
+The official Kali documentation also has separate instructions for installation from ISO images. [oai_citation:3‡Kali Linux](https://www.kali.org/docs/installation/?utm_source=chatgpt.com)
+
 ### VirtualBox
 
 [Download VirtualBox](https://www.virtualbox.org/)
@@ -42,4 +44,4 @@ Open the terminal and run:
 ```bash
 ip a
 
-The official Kali documentation also has separate instructions for installation from ISO images. [oai_citation:3‡Kali Linux](https://www.kali.org/docs/installation/?utm_source=chatgpt.com)
+
