@@ -8,7 +8,7 @@ Download Cisco Packet Tracer from Cisco Networking Academy:
 
 [Download Cisco Packet Tracer](https://www.netacad.com/resources/lab-downloads)
 
-> You may need to sign in or enroll in Cisco's free "Getting Started with Cisco Packet Tracer" course to access the download. [oai_citation:0‡Cisco Networking Academy](https://www.netacad.com/courses/getting-started-cisco-packet-tracer/1000?utm_source=chatgpt.com)
+
 
 ## 💻 Installation
 
