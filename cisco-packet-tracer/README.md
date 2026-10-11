@@ -42,4 +42,4 @@ Connect the PC to the switch and confirm that Packet Tracer is working correctly
 
 ## 📚 Learning Resources
 
-Cisco provides a free beginner course covering downloading, installation, the interface, and creating your first network. [oai_citation:1‡Cisco Networking Academy](https://www.netacad.com/courses/getting-started-cisco-packet-tracer/1000?utm_source=chatgpt.com)
+Cisco provides a free beginner course covering downloading, installation, the interface, and creating your first network (https://www.netacad.com/courses/getting-started-cisco-packet-tracer/1000?utm_source=chatgpt.com)
